@@ -24,6 +24,11 @@ class _StudyPageState extends State<StudyPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xff121421),
+      appBar: AppBar(
+       title: Image.asset('assets/images/tietlogo3.png'),
+      backgroundColor: Color(0xff1C2031),
+      shadowColor: Colors.black,
+    ) ,
       body: SafeArea(
         child: ListView(
           physics: BouncingScrollPhysics(),
