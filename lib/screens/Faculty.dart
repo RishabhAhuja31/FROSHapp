@@ -33,6 +33,11 @@ class _FacultyState extends State<Faculty> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+          title: Image.asset('assets/images/tietlogo3.png'),
+          backgroundColor: Color(0xff1C2031),
+          shadowColor: Colors.black,
+        ) ,
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 40),
         child: Column(
