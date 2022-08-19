@@ -23,6 +23,11 @@ class _Lifeafter5PageState extends State<Lifeafter5Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Image.asset('assets/images/tietlogo3.png'),
+        backgroundColor: Color(0xff1C2031),
+        shadowColor: Colors.black,
+      ) ,
       backgroundColor: Color(0xff121421),
       body: SafeArea(
         child: ListView(
